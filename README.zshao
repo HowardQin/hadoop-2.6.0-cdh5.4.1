@@ -1,0 +1,4 @@
+To build:
+  mvn package -DskipTests
+  mvn install -DskipTests
+  mvn javadoc:aggregate -DskipTests -Dlinksource=true
